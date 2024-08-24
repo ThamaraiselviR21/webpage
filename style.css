@@ -1,0 +1,225 @@
+body{
+   background-image:linear-gradient(rgb(0,0,0,0.3) ,rgb(0,0,0,0.3), rgb(0,0,0,0.3) ), url(./1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.navbar>span{
+    text-transform: uppercase;
+    color: white;
+}
+.logo{
+    color: orange;
+}
+.logo>span{
+    font-size: xx-large;
+}
+.nav{
+    margin-top: 10px;
+}
+.nav:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.search{
+    border: 2px solid orange;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    color: white;
+}
+.search1{
+    border: 2px solid orange;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    flex-wrap: wrap;   
+}
+.contant{
+    width: 500px;
+    color: white;
+}
+.contant>h1{
+    color: orange;
+    padding:0;
+    margin: 0;
+    font-size: xxx-large;
+}
+.contant>h2{
+    padding:0;
+    margin: 0;
+    font-size: xxx-large;
+
+}
+.contant>button{
+    border-radius: 5px;
+    width: 30%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.login{
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.icons{
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: orange;
+    padding: 10px;
+    padding-left:20px ;
+    padding-right: 20px;
+    border: none;
+    
+}
+input{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    text-align: start;
+    
+}
+.log{
+    padding: 10px;
+    text-transform: capitalize;
+    
+}
+label{
+    color: orange;
+    border-radius: 10px;
+    width: 50%;
+    background-color:  white;
+    text-align: center;
+    font-size: large;
+    font-weight:bolder;
+    margin: 10px;
+}
+.box{
+    border-bottom: 2px solid orange;
+    width: 50%;
+    margin: 10px;
+    color: white;
+    
+}
+.click{
+    margin: 10px;
+    width: 55%;
+    font-size: large;
+    border-radius: 10px;
+    
+}
+.para{
+    padding-bottom: 0;
+    color: white;
+    margin-bottom: 0;
+   
+}
+.con{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+.next{
+    margin: 0;  
+}
+.in{
+    color: white;
+}
+details{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contant>p{
+    letter-spacing: 2px;
+}
+::placeholder{
+    color: white;
+}
+@media  screen and (max-width: 480px) {
+    .nav{
+        display: none;
+    }  
+     .logo{
+       
+        width: 100%;
+        text-align: center;
+       
+     }
+    .main{
+        
+        flex-direction: column-reverse;
+        margin: 20px;
+    }
+    .login{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom:10px ;
+        
+    }
+    .contant{
+        width: 100%;
+        margin-top: 30px;
+    }
+    details{
+        display: block;
+      margin: 10px;
+    
+    }
+    .combo{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search{
+        width: 70%;
+        
+    }
+    .drop{
+        color: orange;
+        margin-top: 30px;
+    }
+    summary{
+        padding: 10px;
+        text-align: center;
+        color: white;
+        
+    
+        
+    }
+    .nav1{
+        border: 2px solid orange;
+        margin: 10px;
+        text-transform: uppercase;
+    }
+    summary:hover{
+        color: black;
+        background-color: white;
+        
+    }
+    
+}
